@@ -17,12 +17,17 @@ body {
     flex-flow: row wrap;
 }
 
+.sale-img {
+    margin: 0 auto;
+}
+
 .sale-data {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    padding: 1em 0;
     /* Confeti */
     background: url('./assets/img/confeti.png');
     background-repeat: no-repeat;
@@ -34,6 +39,7 @@ body {
     font-weight: 700;
     margin-bottom: 0em;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .sale-data h3 span {
@@ -54,7 +60,7 @@ body {
 }
 
 .count-script-box {
-    width: 20em;
+    width: 18em;
     margin-top: -2em;
 }
 
@@ -72,3 +78,13 @@ p#demo {
       color: #EFEFEF;
       text-align: center;
   }
+
+  @media screen and (max-width: 318px) {
+    .count-script-box {
+        width: 15em;
+    }   
+  }
+
+  /* @media screen and (max-width: 615px) {
+      
+  } */
