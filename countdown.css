@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    background: #1E1E1E;
+    color: azure;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.countdown-box {
+    background: #000033;
+    max-width: 55em;
+    min-height: 12em;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.sale-data {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* Confeti */
+    background: url('./assets/img/confeti.png');
+    background-repeat: no-repeat;
+    background-size: 28em;
+}
+
+.sale-data h3 {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 0em;
+    text-transform: uppercase;
+}
+
+.sale-data h3 span {
+    color: #00ffff;
+}
+
+.sale-data h3 sup {
+    font-size: .6em;
+}
+
+.count-script-box {
+    width: 20em;
+    margin-top: -2em;
+}
+
+p#demo {
+    text-align: center;
+    font-size: 1.5em;
+    color: #1E1E1E;
+    background: #EFEFEF;
+    padding: .3em;
+    border-radius: 4px;
+  }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="countdown.css">
+    <title>Its the banner countdown</title>
+</head>
+</head>
+<body>
+
+<div class="countdown-box">
+    <div class="sale-img">
+        <img src="./assets/img/img-sale-v1.jpg" alt="imagen de promo cloud sale">
+    </div>
+    <div class="sale-data">
+        <h3><span>Ahorrá un 50%</span><sup>*</sup> en hosting</h3>
+        <p>El Cloud Sale comienza en:</p>
+        <div class="count-script-box">
+            <p id="demo"></p>
+        </div>        
+    </div>
+</div>
+
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Apr 22, 2021 13:27:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Llegó el día!";
+  }
+}, 1000);
+</script>
+
+</body>
+</html>
