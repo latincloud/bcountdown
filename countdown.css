@@ -12,7 +12,7 @@ body {
     max-width: 55em;
     min-height: 12em;
     border-radius: 6px;
-    margin: 0 auto;
+    margin: 3em auto 0 auto;
     display: flex;
     flex-flow: row wrap;
 }
@@ -44,6 +44,15 @@ body {
     font-size: .6em;
 }
 
+.icon i {
+    font-size: 3em;
+    color: #ff00ff;
+}
+
+.timer-icon {
+    margin-right: .7em;
+}
+
 .count-script-box {
     width: 20em;
     margin-top: -2em;
@@ -56,4 +65,10 @@ p#demo {
     background: #EFEFEF;
     padding: .3em;
     border-radius: 4px;
+  }
+
+  p.legal {
+      font-size: .6em;
+      color: #EFEFEF;
+      text-align: center;
   }
