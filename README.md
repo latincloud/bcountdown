@@ -1,6 +1,8 @@
 # bcountdown
- Banner countdown para promos
+ Banner countdown para promos. En este caso se solicitó para cyber cloud sale.
 
- Similar al [banner de cloud sale](https://sitionuevo.latincloud.com/argentina/cloud-hosting-cybermonday)
+ La única referencia estética por el momento es el [banner de cloud sale](https://sitionuevo.latincloud.com/argentina/cloud-hosting-cybermonday) del año pasado. Se nos pidió que esta vez usemos un contdown hasta el día de la promo.
+
+ ![vista previa](snapshot.png)
 
 [Ver en gh pages](https://latincloud.github.io/bcountdown/countdown.html)
