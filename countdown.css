@@ -8,7 +8,7 @@ body {
 }
 
 .countdown-box {
-    background: #000033;
+    background: url('./assets/img/background.png');
     max-width: 55em;
     min-height: 12em;
     border-radius: 6px;
@@ -18,7 +18,14 @@ body {
 }
 
 .sale-img {
-    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.sale-img img {
+    width: 10em;
+    margin-left: 1em;
 }
 
 .sale-data {
@@ -28,10 +35,6 @@ body {
     align-items: center;
     margin: 0 auto;
     padding: 1em 0;
-    /* Confeti */
-    background: url('./assets/img/confeti.png');
-    background-repeat: no-repeat;
-    background-size: 28em;
 }
 
 .sale-data h3 {
@@ -39,15 +42,35 @@ body {
     font-weight: 700;
     margin-bottom: 0em;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
 }
 
 .sale-data h3 span {
-    color: #00ffff;
+    font-weight: bold;
 }
 
 .sale-data h3 sup {
     font-size: .6em;
+}
+
+.codes {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.codes h5 {
+    margin: 0;
+    text-align: center;
+    margin-top: 1em;
+}
+
+p.code-off {
+    border: 2px solid #EFEFEF;
+    padding: .5em 1.5em;
+    border-radius: 3em;
+    font-weight: bold;
 }
 
 .icon i {
