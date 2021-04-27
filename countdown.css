@@ -9,7 +9,7 @@ body {
 
 .countdown-box {
     background: url('./assets/img/background.png');
-    max-width: 55em;
+    max-width: 60em;
     min-height: 12em;
     border-radius: 6px;
     margin: 3em auto 0 auto;
@@ -38,10 +38,7 @@ body {
 }
 
 .sale-data h3 {
-    font-size: 1.3em;
-    font-weight: 700;
-    margin-bottom: 0em;
-    text-transform: uppercase;
+    font-size: 2.3em;
     text-align: left;
 }
 
@@ -100,6 +97,19 @@ p#demo {
       font-size: .6em;
       color: #EFEFEF;
       text-align: center;
+  }
+
+  /* Imagen de referencia - banners completos */
+
+
+  .referencia {
+      max-width: 60em;
+      margin: 4em auto;
+  }
+
+  .referencia img {
+      display: flex;
+      width: 100%;
   }
 
   @media screen and (max-width: 318px) {
