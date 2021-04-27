@@ -34,7 +34,7 @@ h4.etiqueta {
 }
 
 .sale-img img {
-    width: 10em;
+    width: 12em;
     margin-left: 1em;
 }
 
@@ -50,6 +50,7 @@ h4.etiqueta {
 .sale-data h3 {
     font-size: 2.3em;
     text-align: left;
+    margin-left: 1.5em;
 }
 
 .sale-data h3 span {
@@ -68,16 +69,16 @@ h4.etiqueta {
 }
 
 .codes h5 {
-    margin: 0;
+    margin: 2em 0 -1.4em 0;
     text-align: center;
-    margin-top: 1em;
 }
 
 p.code-off {
     border: 2px solid #EFEFEF;
-    padding: .5em 1.5em;
+    padding: .2em .8em;
     border-radius: 3em;
     font-weight: bold;
+    font-size: 1.5em;
 }
 
 .icon i {
