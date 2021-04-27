@@ -7,6 +7,16 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h4.etiqueta {
+    background: #f5f11f;
+    color: #1E1E1E;
+    font-size: 1.3em;
+    padding: .3em 3em;
+    text-align: center;
+    max-width: 10em;
+    margin: 2em auto;
+}
+
 .countdown-box {
     background: url('./assets/img/background.png');
     max-width: 60em;
@@ -101,10 +111,9 @@ p#demo {
 
   /* Imagen de referencia - banners completos */
 
-
   .referencia {
       max-width: 60em;
-      margin: 4em auto;
+      margin: 0 auto;
   }
 
   .referencia img {
