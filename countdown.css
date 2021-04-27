@@ -51,15 +51,16 @@ h4.etiqueta {
     font-size: 2.3em;
     text-align: left;
     margin-left: 1.5em;
+    line-height: 1.1;
 }
 
 .sale-data h3 span {
     font-weight: bold;
 }
 
-.sale-data h3 sup {
+/* .sale-data h3 sup {
     font-size: .6em;
-}
+} */
 
 .codes {
     margin: 0 auto;
