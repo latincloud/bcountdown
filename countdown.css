@@ -1,15 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 body {
     background: #1E1E1E;
     color: azure;
     font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4.etiqueta {
+    background: #f5f11f;
+    color: #1E1E1E;
+    font-size: 1.3em;
+    padding: .3em 3em;
+    text-align: center;
+    max-width: 12em;
+    margin: 2em auto;
 }
 
 .countdown-box {
-    background: #000033;
-    max-width: 55em;
+    /* posicionamos las img de fondo y wave */
+    background-image: url('./assets/img/wave.png'), url('./assets/img/background.png');
+    background-size: 42em, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right, left top;   
+    /* fin imágenes */
+    max-width: 60em;
     min-height: 12em;
     border-radius: 6px;
     margin: 3em auto 0 auto;
@@ -18,7 +33,14 @@ body {
 }
 
 .sale-img {
-    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.sale-img img {
+    width: 11.2em;
+    margin-left: 1.5em;
 }
 
 .sale-data {
@@ -28,26 +50,40 @@ body {
     align-items: center;
     margin: 0 auto;
     padding: 1em 0;
-    /* Confeti */
-    background: url('./assets/img/confeti.png');
-    background-repeat: no-repeat;
-    background-size: 28em;
 }
 
 .sale-data h3 {
-    font-size: 1.3em;
-    font-weight: 700;
-    margin-bottom: 0em;
-    text-transform: uppercase;
-    text-align: center;
+    font-size: 2.3em;
+    text-align: left;
+    margin-left: 1.8em;
+    line-height: 1.1;
+    font-weight: 400;
 }
 
 .sale-data h3 span {
-    color: #00ffff;
+    font-weight: 700;
 }
 
-.sale-data h3 sup {
-    font-size: .6em;
+.codes {
+    margin: 0 auto;
+    margin-right: 2.1em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.codes h5 {
+    margin: 2em 0 -1.4em 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+p.code-off {
+    border: 2px solid #EFEFEF;
+    padding: .15em .8em;
+    border-radius: 3em;
+    font-weight: 700;
+    font-size: 1.5em;
 }
 
 .icon i {
@@ -61,7 +97,7 @@ body {
 
 .count-script-box {
     width: 18em;
-    margin-top: -2em;
+    margin-top: -1em;
 }
 
 p#demo {
@@ -71,12 +107,86 @@ p#demo {
     background: #EFEFEF;
     padding: .3em;
     border-radius: 4px;
+    margin-bottom: 1em;
   }
 
-  p.legal {
-      font-size: .6em;
-      color: #EFEFEF;
-      text-align: center;
+/* Anuncio legal dentro de banner */
+
+  .legal-wrap {
+      margin: -1.2em 0 -.2em 3em;
+  }
+
+  .legal-wrap p {
+      font-size: .7em;
+  }
+
+/* Ajustes banner host sale responsive */
+
+@media screen and (max-width: 880px) {
+    .countdown-box {
+        max-width: 40em;
+    }
+
+    .sale-img {
+        margin: 1em auto 0 auto;
+    }
+
+    .sale-data {
+        padding: 0;
+    }
+
+    .codes {
+        margin-right: 14em;
+        margin-top: -2em;
+    }
+      
+  }
+
+  @media screen and (max-width: 610px) {
+    .countdown-box {
+        max-width: 25em;
+    }
+
+    .sale-img {
+        max-width: 9em;
+    }
+
+    .sale-data h3 {
+        font-size: 1.6em;
+        margin-left: 1.2em;
+    }
+
+    .codes {
+        margin-right: 6.5em;
+        margin-top: -2.5em;
+    }
+      
+  }
+
+  @media screen and (max-width: 380px) {
+    
+    .codes {
+        margin: 0 auto;
+        margin-top: -2em;
+    }
+
+    .legal-wrap {
+        text-align: center;
+        margin: 0 auto;
+    }
+      
+  }
+
+/* Imagen de referencia - banners completos */
+
+  .referencia {
+      max-width: 60em;
+      margin: 0 auto;
+  }
+
+  .referencia img {
+      display: flex;
+      width: 100%;
   }
 
   @media screen and (max-width: 318px) {

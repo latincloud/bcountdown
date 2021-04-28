@@ -11,27 +11,39 @@
 </head>
 <body>
 
+<div class="countdown-apart">
+    <p><i class="timer-icon far fa-clock"></i>El Cloud Sale comienza en:</p>
+    <div class="count-script-box">
+        <p id="demo"></p>
+    </div> 
+</div>
+
+<h4 class="etiqueta">Banner maquetado</h4>
 <div class="countdown-box">
     <div class="sale-img">
-        <img src="./assets/img/img-sale-v1.jpg" alt="imagen de promo cloud sale">
+        <img src="./assets/img/img-sale.svg" alt="imagen de promo host sale">
     </div>
     <div class="sale-data">
-        <h3><span>Ahorrá un 50%</span><sup>*</sup> en hosting</h3>
-        <p><i class="timer-icon far fa-clock"></i>El Cloud Sale comienza en:</p>
-        <div class="count-script-box">
-            <p id="demo"></p>
-        </div>
-        <div class="icon">
-            <i class="fas fa-award"></i> 
-        </div>            
+        <h3><span>Ahorrá un 75%</span><br>en tu plan de Hosting</h3>         
     </div>
+    <div class="codes">
+        <h5>Ingresá el código</h5>
+        <p class="code-off">SALE75OFF</p>        
+    </div>
+    <div class="legal-wrap">
+        <p>Promoción válida del 10 al 15 de mayo de 2021 para nuevos clientes en contratación anual y durante el primer año del servicio</p>
+    </div>        
+</div>            
+
+<h4 class="etiqueta">Imagen referencia</h4>
+<div class="referencia">
+    <img src="./assets/img/banner.jpg" alt="banner completo">
 </div>
-<p class="legal">*Promoción válida únicamente para nuevas altas en contratación anual durante el primer año de servicio.</p>
 
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("May 2, 2021 08:01:01").getTime();
+var countDownDate = new Date("May 10, 2021 00:01:01").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
