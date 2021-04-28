@@ -119,11 +119,62 @@ p#demo {
       font-size: .7em;
   }
 
-  /* p.legal {
-      font-size: .6em;
-      color: #EFEFEF;
-      text-align: center;
-  } */
+/* Ajustes banner host sale responsive */
+
+@media screen and (max-width: 880px) {
+    .countdown-box {
+        max-width: 40em;
+    }
+
+    .sale-img {
+        margin: 1em auto 0 auto;
+    }
+
+    .sale-data {
+        padding: 0;
+    }
+
+    .codes {
+        margin-right: 14em;
+        margin-top: -2em;
+    }
+      
+  }
+
+  @media screen and (max-width: 610px) {
+    .countdown-box {
+        max-width: 25em;
+    }
+
+    .sale-img {
+        max-width: 9em;
+    }
+
+    .sale-data h3 {
+        font-size: 1.6em;
+        margin-left: 1.2em;
+    }
+
+    .codes {
+        margin-right: 6.5em;
+        margin-top: -2.5em;
+    }
+      
+  }
+
+  @media screen and (max-width: 380px) {
+    
+    .codes {
+        margin: 0 auto;
+        margin-top: -2em;
+    }
+
+    .legal-wrap {
+        text-align: center;
+        margin: 0 auto;
+    }
+      
+  }
 
 /* Imagen de referencia - banners completos */
 
