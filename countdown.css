@@ -97,7 +97,7 @@ p.code-off {
 
 .count-script-box {
     width: 18em;
-    margin-top: -2em;
+    margin-top: -1em;
 }
 
 p#demo {
@@ -107,6 +107,7 @@ p#demo {
     background: #EFEFEF;
     padding: .3em;
     border-radius: 4px;
+    margin-bottom: 1em;
   }
 
 /* Anuncio legal dentro de banner */
