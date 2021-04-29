@@ -33,7 +33,7 @@ h4.etiqueta {
 
 .box-vps {
     background-image: url('./assets/img/wave-vps.png'), url('./assets/img/background.png');
-    background-size: 47em, cover;
+    background-size: 50em, cover;
     background-position: bottom left, left top; 
 }
 
@@ -89,6 +89,24 @@ p.code-off {
     border-radius: 3em;
     font-weight: 700;
     font-size: 1.5em;
+}
+
+p.recurrency {
+    font-size: .6em;
+    text-align: center;
+    margin: -3.4em 0 0 4.5em;
+    position: absolute;
+    padding: 0 .2em;
+    width: 9em;
+    border-radius: 2em;
+}
+
+.anual {
+    background: #3D2A70;
+}
+
+.mensual {
+    background: #53378B;
 }
 
 /* solo en caja doble en banner VPS */
@@ -157,6 +175,10 @@ p#demo {
     .codes {
         margin-right: 14em;
         margin-top: -2em;
+    }
+
+    .anual, .mensual {
+        background: #48287A;
     }
       
   }
