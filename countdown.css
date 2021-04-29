@@ -17,6 +17,44 @@ h4.etiqueta {
     margin: 2em auto;
 }
 
+/* countdown fixed arriba de todo el sitio */
+
+.countdown-apart {
+    width: 100%;
+    background: #53378B;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/img/background.png');
+    background-size: cover;
+}
+
+.timer-icon {
+    margin-right: .7em;
+}
+
+.count-script-box {
+    width: 12em;
+    margin-left: 1em;
+}
+
+p#demo {
+    text-align: center;
+    font-size: .9em;
+    color: #EFEFEF;
+    background: #E05B35;    
+    padding: .3em;
+    border-radius: 4px;
+}
+
+.countdown-apart img {
+    max-width: 4em;
+    margin-left: 1em;
+}
+
+/* end countdown top */
+
 .countdown-box {
     /* posicionamos las img de fondo y wave */
     background-image: url('./assets/img/wave.png'), url('./assets/img/background.png');
@@ -115,29 +153,6 @@ p.recurrency {
     margin: .2em 0 -2em 0;
 }
 
-.icon i {
-    font-size: 3em;
-    color: #ff00ff;
-}
-
-.timer-icon {
-    margin-right: .7em;
-}
-
-.count-script-box {
-    width: 18em;
-    margin-top: -1em;
-}
-
-p#demo {
-    text-align: center;
-    font-size: 1.5em;
-    color: #1E1E1E;
-    background: #EFEFEF;
-    padding: .3em;
-    border-radius: 4px;
-    margin-bottom: 1em;
-  }
 
 /* Anuncio legal dentro de banner */
 
@@ -235,7 +250,3 @@ p#demo {
         width: 15em;
     }   
   }
-
-  /* @media screen and (max-width: 615px) {
-      
-  } */
