@@ -17,6 +17,10 @@ h4.etiqueta {
     margin: 2em auto;
 }
 
+.go-down {
+    margin-top: 6em;
+}
+
 /* countdown fixed arriba de todo el sitio */
 
 .countdown-apart {
@@ -28,6 +32,8 @@ h4.etiqueta {
     align-items: center;
     background-image: url('./assets/img/background.png');
     background-size: cover;
+    position: fixed;
+    top: 0;
 }
 
 .timer-icon {
@@ -42,6 +48,7 @@ h4.etiqueta {
 p#demo {
     text-align: center;
     font-size: .9em;
+    font-weight: 700;
     color: #EFEFEF;
     background: #E05B35;    
     padding: .3em;
