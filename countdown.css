@@ -223,6 +223,16 @@ p.recurrency {
         margin-right: 6.5em;
         margin-top: -2.5em;
     }
+
+    .countdown-apart {
+        text-align: center;
+        padding: .3em 0;        
+    }
+
+    .count-script-box {
+        width: 11em;
+        margin-bottom: 1em;
+    }
       
   }
 
@@ -250,10 +260,4 @@ p.recurrency {
   .referencia img {
       display: flex;
       width: 100%;
-  }
-
-  @media screen and (max-width: 318px) {
-    .count-script-box {
-        width: 15em;
-    }   
   }
