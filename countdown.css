@@ -25,11 +25,16 @@ h4.etiqueta {
     background-position: bottom right, left top;   
     /* fin imágenes */
     max-width: 60em;
-    min-height: 12em;
     border-radius: 6px;
     margin: 3em auto 0 auto;
     display: flex;
     flex-flow: row wrap;
+}
+
+.box-vps {
+    background-image: url('./assets/img/wave-vps.png'), url('./assets/img/background.png');
+    background-size: 47em, cover;
+    background-position: bottom left, left top; 
 }
 
 .sale-img {
@@ -86,6 +91,12 @@ p.code-off {
     font-size: 1.5em;
 }
 
+/* solo en caja doble en banner VPS */
+
+.code-box {
+    margin: .2em 0 -2em 0;
+}
+
 .icon i {
     font-size: 3em;
     color: #ff00ff;
@@ -118,6 +129,14 @@ p#demo {
 
   .legal-wrap p {
       font-size: .7em;
+  }
+
+  .legal-vps {
+      max-width: 38em;
+  }
+
+  .legal-vps p {
+      font-size: .6em;
   }
 
 /* Ajustes banner host sale responsive */
